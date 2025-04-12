@@ -57,7 +57,7 @@ TEST(TodoListTest, RemoveInvalidIndexThrows) {
 
     // TODO: Try removing at invalid indices
     // Example: negative index and out-of-bound index
-
+    EXPECT_THROW()
     todo.destroy();
 }
 
