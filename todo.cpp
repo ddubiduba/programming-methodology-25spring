@@ -77,5 +77,5 @@ void TodoList::remove_task(int index) {
 const char** TodoList::get_pending_tasks(int& count) const {
     // TODO: set count and return task array
     count = size;
-    return const_cast<const char**> tasks;
+    return const_cast<const char**> (tasks);
 }
